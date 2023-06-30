@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice Multiplication</title>
+        <script src = "multiplyGame.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Multiplication Game</h1>
+            <p>
+                Let's practice multiplying numbers.
+            </p>
+        </div>
+        <div>
+            <button type = "button" onclick = "generateQuestion()">Generate Question</button><br><br>
+            <label for = "number1">Number 1 : </label>
+            <span id = "number1"></span><br>
+            <label for = "number2">Number 2 : </label>
+            <span id = "number2"></span><br>
+            <label for = "answer">Your Answer :</label>
+            <input type = "text" id = "answer"><br><br>
+            <button type = "button" onclick = "printResult()">Check</button>
+            <p id = "result"></p>
+        </div>
+    </body>
+</html>
