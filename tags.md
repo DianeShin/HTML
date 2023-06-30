@@ -21,3 +21,9 @@
 `<hr>` : thematic break in HTML page.<br>
 `<!-- -- >` : comment.<br>
 
+# Forms and Input
+`<form>` : create HTML form for user input<br>
+<ul>
+    <li>can contain input, textarea, button, select, option, optgroup, fieldset, label, output</li>
+    <li><form action = "php file" method = "get"></li>
+</ul>
