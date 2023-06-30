@@ -22,7 +22,7 @@
 `<!-- -- >` : comment.<br><br>
 
 # Forms and Input
-`<form>` : create HTML form for user input<br><br>
+`<form>` : create HTML form for user input<br>
 <ul>
     <li>Can contain input, textarea, button, select, option, optgroup, fieldset, label, output</li>
     <li>`&lt;form action = "php file" method = "get"&gt;`</li>
@@ -30,31 +30,31 @@
     <li>POST content is sent via HTTP request(not exposed in URL).</li>
 </ul>
 
-`<input>` : specify input field where user can enter data.<br><br>
+`<input>` : specify input field where user can enter data.<br>
 <ul>
     <li>`&lt;input type = "text" id = "uID" name = "userID">`</li>
     <li>type can be botton, checkbox, color, date ....
 </ul>
 
-`<textarea>` : multi-line text input<br><br>
+`<textarea>` : multi-line text input<br>
 <ul>
     <li>&lt;textarea id = "tID" name = "text" rows = "2" cols = "50"&gt;text &lt;/textarea&gt;</li>
     <li>text between the tags are default in the textarea, which is erasable by user.</li>
 </ul>
 
-`<button>` : define clickable button.<br><br>
+`<button>` : define clickable button.<br>
 <ul>
     <li>&lt;button type="button"&gt;Click&lt;/button&gt;</li>
     <li>text between the tags are displayed in the button.</li>
 </ul>
 
-`<select>` : define drop down list(choose from multiple options).<br><br>
+`<select>` : define drop down list(choose from multiple options).<br>
 <ul>
     <li>&lt;select name="cars" id="cars"&gt;</li>
     <li>option tag used to identify options of the selection.</li>
 </ul>
 
-`<optgroup>` : group the options in drop down list.<br><br>
+`<optgroup>` : group the options in drop down list.<br>
 <ul>
     <li>&lt;optgroup label = "Label"&gt;</li>
     <li>Non clickable group name introduced in the list.</li>
